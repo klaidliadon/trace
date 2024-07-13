@@ -1,0 +1,13 @@
+webrpc = v1
+
+name = logging
+version = v0.1.0
+
+service Main
+  - Do() => (ok: bool)
+
+service Secondary
+  - Do() => (ok: bool)
+
+service Tertiary
+  - Do() => (ok: bool)
